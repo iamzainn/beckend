@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 app.get('/', async (req, res) => {
-  res.send('AHMED NAEEM').status(200); // Fixed the status method syntax
+  res.send('malik').status(200); // Fixed the status method syntax
 });
 
 // Use the userRoutes with the correct path
